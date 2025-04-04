@@ -1,0 +1,28 @@
+# Yii2 specific files
+/runtime/
+/web/assets/
+/vendor/
+
+# Composer dependencies
+composer.phar
+
+# Environment specific files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor specific files
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Node.js dependencies
+node_modules/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
