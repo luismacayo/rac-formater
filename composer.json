@@ -24,5 +24,8 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "license": "MIT"
+    "license": "MIT",
+    "require-dev": {
+        "codeception/codeception": "^5.2"
+    }
 }
