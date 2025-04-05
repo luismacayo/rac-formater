@@ -26,6 +26,7 @@
     "prefer-stable": true,
     "license": "MIT",
     "require-dev": {
-        "codeception/codeception": "^5.2"
+        "codeception/codeception": "^5.2",
+        "codeception/module-asserts": "^3.0"
     }
 }
