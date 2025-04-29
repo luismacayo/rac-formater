@@ -2,6 +2,7 @@
     "name": "luismacayo/rac-formater",
     "description": "RAC formater for agentcars",
     "type": "yii2-extension",
+    "version": "v1.2.0",
     "keywords": ["yii2", "plugin", "agentcars", "rac", "formater"],
     "require": {
         "php": ">=8.2",
