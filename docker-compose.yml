@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www
+      - /var/www/vendor
+    environment:
+      - PHP_MEMORY_LIMIT=1G
+      - XDEBUG_MODE=coverage
+    command: composer test
